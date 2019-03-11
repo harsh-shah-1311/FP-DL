@@ -1,0 +1,9 @@
+#
+# My first shell script
+#
+clear
+echo "Knowledge is power"
+
+echo -e "An apple a day keeps away \a\t\tdoctor\n"
+
+echo "Today is 'date'".
