@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+main	ota_app.c	/^int main(int argc, char *argv[])$/;"	f
+ota_download_progress_cb	ota_download.c	/^static int ota_download_progress_cb(void *p, curl_off_t dltotal, curl_off_t dlnow, curl_off_t ultotal, curl_off_t ulnow)$/;"	f	file:
+ota_download_sftp	ota_download.c	/^int ota_download_sftp(char *src_url, char *dest_file)$/;"	f
+ota_get_gw_id	ota_util.c	/^void ota_get_gw_id(char *id, int len) $/;"	f
+ota_get_uboot_env	ota_util.c	/^int ota_get_uboot_env(char *var, char *val) {$/;"	f
+ota_init_gw_id	ota_util.c	/^static int ota_init_gw_id()$/;"	f	file:
+ota_reboot_device	ota_util.c	/^void ota_reboot_device(int delay_in_seconds, int send_status) $/;"	f
+ota_send_status	ota_util.c	/^int ota_send_status(const char *status, const char *data) $/;"	f
+ota_set_gw_id	ota_util.c	/^void ota_set_gw_id(char *id) $/;"	f
+ota_set_lock	ota_util.c	/^int ota_set_lock(void) $/;"	f
+ota_set_uboot_env	ota_util.c	/^int ota_set_uboot_env(char *var, char *val) {$/;"	f
+ota_start	ota_app.c	/^int ota_start(char *src_url)$/;"	f
+ota_start_file	ota_app.c	/^int ota_start_file(char *src_url)$/;"	f
+ota_swupdate_progress_init	ota_update.c	/^static int ota_swupdate_progress_init() $/;"	f	file:
+ota_swupdate_progress_loop	ota_update.c	/^static void *ota_swupdate_progress_loop(void *arg) $/;"	f	file:
+ota_update_init	ota_app.c	/^static int ota_update_init() $/;"	f	file:
+ota_update_start	ota_update.c	/^int ota_update_start(char *update_file, char *key_file)$/;"	f
+ota_update_thread	ota_app.c	/^void *ota_update_thread(void *arg)$/;"	f
+ota_update_verify	ota_update.c	/^int ota_update_verify(char *update_file, char *key_file)$/;"	f

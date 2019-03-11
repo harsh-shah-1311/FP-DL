@@ -1,0 +1,10 @@
+[Unit]
+Description=Gateway OTA handler
+After=gateway-config.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ota-update
+
+[Install]
+WantedBy=multi-user.target

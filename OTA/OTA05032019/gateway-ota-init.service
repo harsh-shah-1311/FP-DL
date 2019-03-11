@@ -1,0 +1,10 @@
+[Unit]
+Description=Gateway OTA Init
+After=gateway-config.service
+
+[Service]
+Type=oneshot
+ExecStart=/etc/ota-update-init start
+
+[Install]
+WantedBy=multi-user.target

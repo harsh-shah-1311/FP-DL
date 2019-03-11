@@ -1,0 +1,31 @@
+#!/bin/sh
+NAME=ota-update-init
+DESC="Modular Gateway OTA service"
+
+OTA_APP_BIN=/usr/bin/ota-update
+OTA_LOCK_FILE=/var/lock/.mg_ota_lock
+NO_OTA_FILE=/var/run/.no_ota_support
+
+if [ -f ${NO_OTA_FILE} ]; then
+	echo "OTA update not supported."
+	exit 1
+fi
+
+case "$1" in
+	start)
+		systemctl start gateway-ota-handler.service
+		echo "$DESC started."
+		;;
+	stop)
+		systemctl stop gateway-ota-handler.service
+		rm -f ${OTA_LOCK_FILE}
+		echo "$DESC Stopped."
+		;;
+	restart)
+		$0 stop
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 {start|stop|restart}"
+		exit 1
+esac
