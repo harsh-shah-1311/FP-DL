@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLIENT_PUB	main.h	12;"	d
+CLIENT_SUB	main.h	13;"	d
+MSGMODE_CMD	main.h	7;"	d
+MSGMODE_FILE	main.h	9;"	d
+MSGMODE_NONE	main.h	6;"	d
+MSGMODE_NULL	main.h	10;"	d
+MSGMODE_STDIN_LINE	main.h	8;"	d
+STATUS_CONNACK_RECVD	pub.c	18;"	d	file:
+STATUS_CONNECTING	pub.c	17;"	d	file:
+STATUS_WAITING	pub.c	19;"	d	file:
+_CLIENT_CONFIG_H	main.h	2;"	d
+bind_address	main.h	/^        char *bind_address;$/;"	m	struct:mosq_config
+clean_session	main.h	/^        bool clean_session; \/* sub *\/$/;"	m	struct:mosq_config
+client_config_cleanup	main.c	/^void client_config_cleanup(struct mosq_config *cfg)$/;"	f
+client_config_line_proc	main.c	/^int client_config_line_proc(struct mosq_config *cfg, int pub_or_sub, int argc, char *argv[])$/;"	f
+client_config_load	main.c	/^int client_config_load(struct mosq_config *cfg, int pub_or_sub, int argc, char *argv[])$/;"	f
+client_connect	main.c	/^int client_connect(struct mosquitto *mosq, struct mosq_config *cfg)$/;"	f
+client_id_generate	main.c	/^int client_id_generate(struct mosq_config *cfg, const char *id_base)$/;"	f
+connected	pub.c	/^static bool connected = true;$/;"	v	file:
+debug	main.h	/^        bool debug;$/;"	m	struct:mosq_config
+disconnect_sent	pub.c	/^static bool disconnect_sent = false;$/;"	v	file:
+eol	main.h	/^        bool eol; \/* sub *\/$/;"	m	struct:mosq_config
+file_input	main.h	/^        char *file_input; \/* pub *\/$/;"	m	struct:mosq_config
+filter_out_count	main.h	/^        int filter_out_count; \/* sub *\/$/;"	m	struct:mosq_config
+filter_outs	main.h	/^        char **filter_outs; \/* sub *\/$/;"	m	struct:mosq_config
+host	main.h	/^        char *host;$/;"	m	struct:mosq_config
+id	main.h	/^        char *id;$/;"	m	struct:mosq_config
+id_prefix	main.h	/^        char *id_prefix;$/;"	m	struct:mosq_config
+init_config	main.c	/^void init_config(struct mosq_config *cfg)$/;"	f
+keepalive	main.h	/^        int keepalive;$/;"	m	struct:mosq_config
+last_mid	pub.c	/^static int last_mid = -1;$/;"	v	file:
+last_mid_sent	pub.c	/^static int last_mid_sent = -1;$/;"	v	file:
+load_file	pub.c	/^int load_file(const char *filename)$/;"	f
+main	pub.c	/^int main(int argc, char **argv)$/;"	f
+main	sub.c	/^int main(int argc, char *argv[])$/;"	f
+max_inflight	main.h	/^        unsigned int max_inflight;$/;"	m	struct:mosq_config
+message	main.h	/^        char *message; \/* pub *\/$/;"	m	struct:mosq_config
+message	pub.c	/^static char *message = NULL;$/;"	v	file:
+mid_sent	pub.c	/^static int mid_sent = 0;$/;"	v	file:
+mode	pub.c	/^static int mode = MSGMODE_NONE;$/;"	v	file:
+mosq_config	main.h	/^struct mosq_config {$/;"	s
+msg_count	main.h	/^        int msg_count; \/* sub *\/$/;"	m	struct:mosq_config
+msg_count	sub.c	/^int msg_count = 0;$/;"	v
+msglen	main.h	/^        long msglen; \/* pub *\/$/;"	m	struct:mosq_config
+msglen	pub.c	/^static long msglen = 0;$/;"	v	file:
+my_connect_callback	pub.c	/^void my_connect_callback(struct mosquitto *mosq, void *obj, int result)$/;"	f
+my_connect_callback	sub.c	/^void my_connect_callback(struct mosquitto *mosq, void *obj, int result)$/;"	f
+my_disconnect_callback	pub.c	/^void my_disconnect_callback(struct mosquitto *mosq, void *obj, int rc)$/;"	f
+my_log_callback	pub.c	/^void my_log_callback(struct mosquitto *mosq, void *obj, int level, const char *str)$/;"	f
+my_log_callback	sub.c	/^void my_log_callback(struct mosquitto *mosq, void *obj, int level, const char *str)$/;"	f
+my_message_callback	sub.c	/^void my_message_callback(struct mosquitto *mosq, void *obj, const struct mosquitto_message *message)$/;"	f
+my_publish_callback	pub.c	/^void my_publish_callback(struct mosquitto *mosq, void *obj, int mid)$/;"	f
+my_subscribe_callback	sub.c	/^void my_subscribe_callback(struct mosquitto *mosq, void *obj, int mid, int qos_count, const int *granted_qos)$/;"	f
+no_retain	main.h	/^        bool no_retain; \/* sub *\/$/;"	m	struct:mosq_config
+port	main.h	/^        int port;$/;"	m	struct:mosq_config
+process_messages	sub.c	/^bool process_messages = true;$/;"	v
+protocol_version	main.h	/^        int protocol_version;$/;"	m	struct:mosq_config
+pub_mode	main.h	/^        int pub_mode; \/* pub *\/$/;"	m	struct:mosq_config
+qos	main.h	/^        int qos;$/;"	m	struct:mosq_config
+qos	pub.c	/^static int qos = 0;$/;"	v	file:
+quiet	main.h	/^        bool quiet;$/;"	m	struct:mosq_config
+quiet	pub.c	/^static bool quiet = false;$/;"	v	file:
+retain	main.h	/^        bool retain;$/;"	m	struct:mosq_config
+retain	pub.c	/^static int retain = 0;$/;"	v	file:
+snprintf	pub.c	11;"	d	file:
+snprintf	sub.c	11;"	d	file:
+status	pub.c	/^static int status = STATUS_CONNECTING;$/;"	v	file:
+topic	main.h	/^        char *topic; \/* pub *\/$/;"	m	struct:mosq_config
+topic	pub.c	/^static char *topic = NULL;$/;"	v	file:
+topic_count	main.h	/^        int topic_count; \/* sub *\/$/;"	m	struct:mosq_config
+topics	main.h	/^        char **topics; \/* sub *\/$/;"	m	struct:mosq_config

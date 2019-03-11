@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLEAN_SESSION	github_mqtt.c	20;"	d	file:
+CONNACK	github_mqtt.c	/^    CONNACK,$/;"	e	enum:__anon1	file:
+CONNECT	github_mqtt.c	/^    CONNECT = 1,$/;"	e	enum:__anon1	file:
+Connection_Accepted	github_mqtt.c	/^    Connection_Accepted,$/;"	e	enum:__anon2	file:
+Connection_Refused_bad_username_or_password	github_mqtt.c	/^    Connection_Refused_bad_username_or_password,$/;"	e	enum:__anon2	file:
+Connection_Refused_identifier_rejected	github_mqtt.c	/^    Connection_Refused_identifier_rejected,$/;"	e	enum:__anon2	file:
+Connection_Refused_not_authorized	github_mqtt.c	/^    Connection_Refused_not_authorized$/;"	e	enum:__anon2	file:
+Connection_Refused_server_unavailable	github_mqtt.c	/^    Connection_Refused_server_unavailable,$/;"	e	enum:__anon2	file:
+Connection_Refused_unacceptable_protocol_version	github_mqtt.c	/^    Connection_Refused_unacceptable_protocol_version,$/;"	e	enum:__anon2	file:
+DISCONNECT	github_mqtt.c	/^    DISCONNECT $/;"	e	enum:__anon1	file:
+DUP	github_mqtt.c	/^    uint16_t     DUP                : 1;$/;"	m	struct:fixed_header_t	file:
+GET_MESSAGE	github_mqtt.c	30;"	d	file:
+KEEPALIVE	github_mqtt.c	21;"	d	file:
+LSB	github_mqtt.c	26;"	d	file:
+MESSAGE_ID	github_mqtt.c	22;"	d	file:
+MSB	github_mqtt.c	25;"	d	file:
+PINGREQ	github_mqtt.c	/^    PINGREQ,$/;"	e	enum:__anon1	file:
+PINGRESP	github_mqtt.c	/^    PINGRESP,$/;"	e	enum:__anon1	file:
+PROTOCOL_NAME	github_mqtt.c	18;"	d	file:
+PROTOCOL_VERSION	github_mqtt.c	19;"	d	file:
+PUBACK	github_mqtt.c	/^    PUBACK,$/;"	e	enum:__anon1	file:
+PUBCOMP	github_mqtt.c	/^    PUBCOMP,$/;"	e	enum:__anon1	file:
+PUBLISH	github_mqtt.c	/^    PUBLISH,$/;"	e	enum:__anon1	file:
+PUBREC	github_mqtt.c	/^    PUBREC,$/;"	e	enum:__anon1	file:
+PUBREL	github_mqtt.c	/^    PUBREL,$/;"	e	enum:__anon1	file:
+QoS	github_mqtt.h	/^typedef enum {QoS0, QoS1, QoS2} QoS;$/;"	t	typeref:enum:__anon3
+QoS0	github_mqtt.h	/^typedef enum {QoS0, QoS1, QoS2} QoS;$/;"	e	enum:__anon3
+QoS1	github_mqtt.h	/^typedef enum {QoS0, QoS1, QoS2} QoS;$/;"	e	enum:__anon3
+QoS2	github_mqtt.h	/^typedef enum {QoS0, QoS1, QoS2} QoS;$/;"	e	enum:__anon3
+Qos	github_mqtt.c	/^    uint16_t     Qos                : 2;$/;"	m	struct:fixed_header_t	file:
+SET_MESSAGE	github_mqtt.c	29;"	d	file:
+SUBACK	github_mqtt.c	/^    SUBACK,$/;"	e	enum:__anon1	file:
+SUBSCRIBE	github_mqtt.c	/^    SUBSCRIBE,$/;"	e	enum:__anon1	file:
+SetSocketTimeout	github_mqtt.c	/^int SetSocketTimeout(int connectSocket, int milliseconds)$/;"	f
+UNSUBACK	github_mqtt.c	/^    UNSUBACK,$/;"	e	enum:__anon1	file:
+UNSUBSCRIBE	github_mqtt.c	/^    UNSUBSCRIBE,$/;"	e	enum:__anon1	file:
+client_name	github_pub.c	/^const char *client_name = "default_pub"; 	\/\/ -c$/;"	v
+client_name	github_sub.c	/^const char *client_name = "default_sub"; 	\/\/ -c$/;"	v
+clientid	github_mqtt.c	/^	char                clientid[24];  \/\/ max 23 charaters long$/;"	m	struct:mqtt_broker_handle	file:
+connack_msg_t	github_mqtt.c	/^} connack_msg_t;$/;"	t	typeref:enum:__anon2	file:
+connect_msg_t	github_mqtt.c	/^    uint16_t     connect_msg_t      : 4;$/;"	m	struct:fixed_header_t	file:
+connect_msg_t	github_mqtt.c	/^} connect_msg_t;$/;"	t	typeref:enum:__anon1	file:
+connected	github_mqtt.c	/^	bool                connected;$/;"	m	struct:mqtt_broker_handle	file:
+count	github_pub.c	/^uint32_t    count       = 10;			\/\/ -n$/;"	v
+fixed_header_t	github_mqtt.c	/^typedef struct fixed_header_t$/;"	s	file:
+fixed_header_t	github_mqtt.c	/^}fixed_header_t;$/;"	t	typeref:struct:fixed_header_t	file:
+hostname	github_mqtt.c	/^	char                hostname[16];  \/\/ based on xxx.xxx.xxx.xxx format$/;"	m	struct:mqtt_broker_handle	file:
+ip_addr	github_pub.c	/^const char *ip_addr     = "127.0.0.1";		\/\/ -i$/;"	v
+ip_addr	github_sub.c	/^const char *ip_addr     = "127.0.0.1";		\/\/ -i$/;"	v
+main	github_pub.c	/^int main (int argc, char** argv)$/;"	f
+main	github_sub.c	/^int main (int argc, char** argv)$/;"	f
+mqtt_broker_handle	github_mqtt.c	/^struct mqtt_broker_handle$/;"	s	file:
+mqtt_broker_handle_t	github_mqtt.h	/^typedef struct mqtt_broker_handle mqtt_broker_handle_t;$/;"	t	typeref:struct:mqtt_broker_handle
+mqtt_connect	github_mqtt.c	/^mqtt_broker_handle_t * mqtt_connect(const char* client, const char * server_ip, uint32_t port)$/;"	f
+mqtt_disconnect	github_mqtt.c	/^void mqtt_disconnect(mqtt_broker_handle_t *broker)$/;"	f
+mqtt_display_message	github_mqtt.c	/^void mqtt_display_message(mqtt_broker_handle_t *broker, int (*print)(int))$/;"	f
+mqtt_h	github_mqtt.h	2;"	d
+mqtt_publish	github_mqtt.c	/^int mqtt_publish(mqtt_broker_handle_t *broker, const char *topic, const char *msg, QoS qos)$/;"	f
+mqtt_subscribe	github_mqtt.c	/^int mqtt_subscribe(mqtt_broker_handle_t *broker, const char *topic, QoS qos)$/;"	f
+parse_options	github_pub.c	/^void parse_options(int argc, char** argv)$/;"	f
+parse_options	github_sub.c	/^void parse_options(int argc, char** argv)$/;"	f
+port	github_mqtt.c	/^	uint16_t            port;$/;"	m	struct:mqtt_broker_handle	file:
+port	github_pub.c	/^uint32_t    port        = 1883;			\/\/ -p$/;"	v
+port	github_sub.c	/^uint32_t    port        = 1883;			\/\/ -p$/;"	v
+pubMsgID	github_mqtt.c	/^    uint16_t            pubMsgID;$/;"	m	struct:mqtt_broker_handle	file:
+remaining_length	github_mqtt.c	/^    uint16_t     remaining_length   : 8;    $/;"	m	struct:fixed_header_t	file:
+retain	github_mqtt.c	/^    uint16_t     retain             : 1;$/;"	m	struct:fixed_header_t	file:
+socket	github_mqtt.c	/^	int                 socket;$/;"	m	struct:mqtt_broker_handle	file:
+socket_address	github_mqtt.c	/^	struct sockaddr_in  socket_address;$/;"	m	struct:mqtt_broker_handle	typeref:struct:mqtt_broker_handle::sockaddr_in	file:
+subMsgID	github_mqtt.c	/^    uint16_t            subMsgID;$/;"	m	struct:mqtt_broker_handle	file:
+topic	github_mqtt.c	/^    size_t              topic;$/;"	m	struct:mqtt_broker_handle	file:
+topic	github_pub.c	/^const char *topic       = "hello\/world";	\/\/ -t$/;"	v
+topic	github_sub.c	/^const char *topic       = "hello\/world";	\/\/ -t$/;"	v
